@@ -23,7 +23,7 @@ Tarkasta koneesi java-versio kirjoittamalla terminaaliin käsky:
 
 Jos koneellasi on jokin muu versio vaihda se alla olevan ohjeen mukaisesti:
 
-Jotta kurssin esimerkkisovelluksen https://github.com/mluukkai/OtmTodoApp saa toimimaan laitoksen koneilla vaihda se alla olevalla terminaalikäskyllä
+Jotta kurssin [esimerkkisovelluksen](https://github.com/mluukkai/OtmTodoApp) saa toimimaan laitoksen koneilla vaihda se alla olevalla terminaalikäskyllä
 
 `export JAVA_HOME=/usr/lib/jvm/java-1.8.0-openjdk-amd64/`
 
