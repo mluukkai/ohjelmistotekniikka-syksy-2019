@@ -8,7 +8,7 @@ Viikon palautuksista on tarjolla 2 pistettä. Pisteytys arvioidaan palautuksen l
 
 Muista pushata tehtävät GitHubiin ennen viikkodeadlinea. Myöhässä tehty palautus ei tuo pisteitä.
 
-*HUOM!! Tehtävissä tarvitset [java8-version](https://github.com/mluukkai/ohjelmistotekniikka-syksy-2019/blob/master/misc/Java8.md)**
+**HUOM!! Tehtävissä tarvitset [java8-version](https://github.com/mluukkai/ohjelmistotekniikka-syksy-2019/blob/master/misc/Java8.md)**
 
 ## Komentorivin harjoittelua
 
