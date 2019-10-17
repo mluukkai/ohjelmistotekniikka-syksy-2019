@@ -1,6 +1,6 @@
 # Harjoitustyö, viikko 2 
 
-Palautuksen deadline tiistaina ti 26.3. klo 23:59
+Palautuksen deadline tiistaina ti 12.11. klo 23:59
 
 Muista pushata tehtävät GitHubiin ennen viikkodeadlinea. Myöhässä tehty palautus ei tuo pisteitä.
 
@@ -15,7 +15,7 @@ Mikään ei tietenkään estä sitä, että aloitat jo ohjelmoinnin tai vaikkapa
 
 **HUOM** jos aloitat jo ohjelmoinnin, muista että ohjelmakoodi tulee kirjoittaa englanniksi! Ohjelman käyttöliittymä ja dokumentaatio voivat olla suomeksi tai englanniksi. Ainoa sallittu ohjelmointikieli on Java
 
-Palautus tapahtuu lisäämällä oman aiheen _alustava määrittelydokumentti_ ensimmäisen viikon [laskareiden](https://github.com/mluukkai/ohjelmistotekniikka-syksy-2019/blob/master/tehtavat/viikko1.md#labtool) päätteeksi [labtooliin](https://studies.cs.helsinki.fi/labtool/courses/TKT20002.2018.S.K.1) rekisteröimääsi palautusrepositorioon.
+Palautus tapahtuu lisäämällä oman aiheen _alustava määrittelydokumentti_ ensimmäisen viikon [laskareiden](https://github.com/mluukkai/ohjelmistotekniikka-syksy-2019/blob/master/tehtavat/viikko1.md#labtool) päätteeksi [labtooliin](https://study.cs.helsinki.fi/labtool/courses/TKT20002.2018.S.K.1) rekisteröimääsi palautusrepositorioon.
 
 Määrittelydokumentti tehdään samaan tapaan kuin [referenssiprojektista](https://github.com/mluukkai/OtmTodoApp) eli [markdown](https://guides.github.com/features/mastering-markdown/)-muodossa, sijoitetaan repositorion hakemistoon _dokumentointi_ ja siihen tulee olla linkki repositorion README.md:stä.
 
