@@ -10,7 +10,7 @@ Kurssin kolmella ensimmäisellä viikolla on muutama ohjauksessa tai omatoimises
 
 Kurssin arvostelu perustuu pääasiassa harjoitustyöstä saataviin pisteisiin. Osa pisteistä kertyy [aikatauluun](https://github.com/mluukkai/ohjelmistotekniikka-syksy-2019#aikataulu) määriteltyjen viikoittaisten välitavoitteiden kautta, osa taas perustuu työn lopulliseen palautukseen.
 
-Kurssilla ei ole koetta. Harjoitustyö tulee tehdä kurssin aikataulujen puitteissa. Kesken jäänyttä harjoitustyötä ei voi jatkaa seuraavalla kurssilla (syksyllä 2019), joten **muista varata riittävästi aikaa (10-15h viikossa) koko periodin ajaksi!**
+Kurssilla ei ole koetta. Harjoitustyö tulee tehdä kurssin aikataulujen puitteissa. Kesken jäänyttä harjoitustyötä ei voi jatkaa seuraavalla kurssilla (keväällä 2020), joten **muista varata riittävästi aikaa (10-15h viikossa) koko periodin ajaksi!**
 
 Tarkemmat arvosteluperusteet [täällä](https://github.com/mluukkai/ohjelmistotekniikka-syksy-2019/blob/master/web/arvosteluperusteet.md).
 
@@ -75,9 +75,9 @@ Perjantain 3.5. pajaohjaus siirretty ajalle kello 10-12
 
 ### viikko 1
 
-Palautuksen deadline ti 19.3. klo 23:59
+Palautuksen deadline ti 5.11. klo 23:59
 
-- Maanantaina 11.3. klo 14-16 kurssin aloitustilaisuus salissa A111
+- Maanantaina 24.10. klo 14-16 kurssin aloitustilaisuus salissa A111
 - Komentorivi- ja Git-harjoittelu (2p)
   - Pajassa tehtävät tai omatoimiset [tehtävät](https://github.com/mluukkai/ohjelmistotekniikka-syksy-2019/blob/master/tehtavat/viikko1.md)
 - Tehtävien palautus tapahtuu tekemällä repositorio githubiin ja rekisteröitymällä labtooliin
