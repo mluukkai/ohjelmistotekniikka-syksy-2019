@@ -46,11 +46,11 @@ Kirjauduttuasi laitoksen palvelimelle, tee seuraavat toimenpiteet:
 * luo kotihakemistoosi hakemisto _kurssit_
   * **HUOM** joidenkin kohdalla melkillä on ollut ongelmia kotihakemiston asetuksissa ja esim. hakemiston luomisen seurauksena on virhe 'permission denied'. Jos törmäät ongelmaan, lähetä viesti osoitteeseen _it-support@cs.helsinki.fi_ ja raportoi ongelmaksi "ei oikeuksia kotihakemistoon melkillä"
   * kokeile myös jos kirjaantuminen toiselle koneelle, esim. _melkinpaasi.cs.helsinki.fi_ tuottaisi paremman tuloksen
-* luo hakemistolle _kurssit_ alihakemisto _ot2019
+* luo hakemistolle _kurssit_ alihakemisto _ot2019_
 * ja luomallesi hakemistolle alihakemisto _viikko1_
 * mene kotihakemistoosi ja luo sen alle hakemisto _temp_
 * mene hakemistoon _temp_
-* hae osoitteessa _https://raw.githubusercontent.com/mluukkai/ohjelmistotekniikka-syksy-2019/master/misc/Unicafe.zip_ oleva tiedosto [wget](https://en.wikipedia.org/wiki/Wget)-ohjelmalla
+* hae osoitteessa _https://raw.githubusercontent.com/mluukkai/ohjelmistotekniikka-kevat2019/master/misc/Unicafe.zip_ oleva tiedosto [wget](https://en.wikipedia.org/wiki/Wget)-ohjelmalla
   * wget toimii siten, että sille annetaan ladattava tiedosto parametriksi
 * haettu tiedosto on _zip-paketti_, pura se _unzip_-ohjelmalla
   * myös unzip toimii siten, että sille annetaan purettava tiedosto parametriksi
@@ -60,7 +60,7 @@ Kirjauduttuasi laitoksen palvelimelle, tee seuraavat toimenpiteet:
 * poista hakemisto _temp_
 * mene nyt uudessa paikassa olevaan hakemistoon _Unicafe_
 * suorita komento _mvn clean_
-  * jos näen rivien joukossa ilmoituksen _BUILD SUCCESS_ on tehtävä tehty
+  * jos näet rivien joukossa ilmoituksen _BUILD SUCCESS_ on tehtävä tehty
 
 **Mene tämän jälkeen _kotihakemistoon_ ja anna komento _tree kurssit_. Copypastea komennon tulostus talteen, tarvitset sitä myöhemmin.**
 
@@ -98,7 +98,7 @@ Nykyään suosituin versionhallintaohjelmisto on [git](https://git-scm.com). Tut
 
 ### konfiguraatioita
 
-Avaa terminaali omalla koneellasi. **Seuraavat tehtävät tehdään siis paikallisesti, ei melkillä!**. 
+Avaa terminaali omalla koneellasi. **Seuraavat tehtävät tehdään siis paikallisesti, ei melkillä!**
 
 Määrittele gitille **oma nimesi** sekä **käyttämäsi email-osoite** antamalla komennot:
 
@@ -319,7 +319,7 @@ Vasemmalla yläkulmassa näet kaikki commitit. Uusin tilanne ylimpänä. Uusimma
 
 Vastaava näkymä OSX:n [Sourcetree](https://www.sourcetreeapp.com)-ohjelmalla tarkasteltaessa:
 
-![](https://raw.githubusercontent.com/mluukkai/ohjelmistotekniikka-syksy-2019/master/web/images/lh1-1a.png)
+![](https://raw.githubusercontent.com/mluukkai/ohjelmistotekniikka-kevat2019/master/web/images/lh1-1a.png)
 
 Seuraavaa tehtävää tekiessäsi kannattaa terminaaliin avata uusi välilehti, jotta voit pitää gitk:ta käynnissä.
 
@@ -470,7 +470,7 @@ Siirrytään sitten GitHubin käyttöön
   * uuden repositorion luomistoiminto löytyy vasemman ylänurkan plus-symboolin alta
 * **Älä laita rastia** kohtaan *Initialize this repository with a README*
 
-![](https://raw.githubusercontent.com/mluukkai/ohjelmistotekniikka-syksy-2019/master/web/images/lh1-2a.png)
+![](https://raw.githubusercontent.com/mluukkai/ohjelmistotekniikka-kevat2019/master/web/images/lh1-2a.png)
 
 * luo repositorio painamalla vihreää _Create repository_ -nappia
 
@@ -479,7 +479,7 @@ Seuraavaksi haluamme liittää GitHubiin luodun repositorion juuri luodun paikal
 * etärepositorion lisääminen onnistuu GitHubiin avautuvan näkymän ohjeiden mukaan 
 * varmista, että kohdasta "Quick setup..." on valittu **SSH**
 
-![](https://raw.githubusercontent.com/mluukkai/ohjelmistotekniikka-syksy-2019/master/web/images/lh1-3a.png)
+![](https://raw.githubusercontent.com/mluukkai/ohjelmistotekniikka-kevat2019/master/web/images/lh1-3a.png)
 
 - kopioi ylempi rivi kohdasta *...or push an existing repository from the command line*
 - omassa esimerkissäni rivi on
@@ -515,7 +515,7 @@ and the repository exists.
 
 ## Julkinen avain
 
-Jos olet jo asettanut julkisen avaimen esim. Tietokantojen perusteissa, pushauksen pitäisi toimia ja voit siirtyä [seuraavaan kohtaan](https://github.com/mluukkai/ohjelmistotekniikka-syksy-2019/blob/master/tehtavat/viikko1.md#kertausta).
+Jos olet jo asettanut julkisen avaimen esim. Tietokantojen perusteissa, pushauksen pitäisi toimia ja voit siirtyä [seuraavaan kohtaan](https://github.com/mluukkai/ohjelmistotekniikka-kevat2019/blob/master/tehtavat/viikko1.md#kertausta).
 
 Pushaus ei toimi. Nyt kyse on siitä, että git haluaisi suorittaa [julkisen avaimen](https://the.earth.li/~sgtatham/putty/0.55/htmldoc/Chapter8.html) autentikoinnin. Se ei kuitenkaan onnistu koska emme ole kertoneet gitille julkista salausavaintamme.
 
@@ -575,7 +575,7 @@ Branch master set up to track remote branch master from origin.
   * tiedostojen urlin saat navigoimalla GitHubissa tiedostoon ja kopioimalla osoitteen selaimen osoiteriviltä 
 * Repositoriosi tulee näyttää suunnilleen seuraavalta
 
-![](https://raw.githubusercontent.com/mluukkai/ohjelmistotekniikka-syksy-2019/master/web/images/lh1-4a.png)
+![](https://raw.githubusercontent.com/mluukkai/ohjelmistotekniikka-kevat2019/master/web/images/lh1-4a.png)
 
 * jos teit kaiken oikein, pääset README.md:ssä olevia linkkejä klikkaamalla näkemään linkitettyjen tiedostojen sisällön
 

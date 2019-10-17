@@ -1,6 +1,6 @@
 # Ohjelmistotekniikka, syksy 2019
 
-_Kurssin nimi on muuttunut, ennen tätä syksyä kurssi tunnettiin nimellä Ohjelmistotekniikan menetelmät_
+_Kurssin nimi on muuttunut, aiemmin kurssi tunnettiin nimellä Ohjelmistotekniikan menetelmät_
 
 ## Yleistä
 
@@ -20,7 +20,6 @@ Jos huomaat tehtävissä tai muussa materiaalissa kirjoitusvirheitä, kirjaudu G
 
 ## Ajankohtaista
 
-- [Tärkeää! OpenJDK:ssa havaittu bugi saattaa estää maven-sovellusten toiminnan (marraskuu 2018)](https://github.com/mluukkai/ohjelmistotekniikka-syksy-2019/blob/master/web/openjdkbug.md)  
 - [Telegram](https://t.me/tktlotm) on whatsappin/messengerin tyylinen keskustelufoorumisovellus jota on mahdollista käyttää selaimella, mobiililaitteilla ja Windows/Linux/OSX-clienteillä
   - Telegram-kanava on sillattu IRC-kanavaan #otm
   - **Huom:** kaikki epäasialliset, halventavat ja jotain ihmisryhmää syrjivät kommentit kanavalla ovat kiellettyjä ja tälläisten kommenttien esittäjät poistetaan kanavalta
@@ -39,7 +38,7 @@ Jos huomaat tehtävissä tai muussa materiaalissa kirjoitusvirheitä, kirjaudu G
   - viikko 7 [harjoitustyö](https://github.com/mluukkai/ohjelmistotekniikka-syksy-2019/blob/master/tehtavat/harjoitustyo_viikko7.md)
 - Kurssin referenssisovellus [OtmTodoApp](https://github.com/mluukkai/OtmTodoApp)
   - Sovelluksen tarkoituksena on demonstroida erästä tapaa tehdä suurin piirtein täysiin pisteisiin riittävä dokumentaatio ja testaus projektillesi. Itse ohjelma on sen verran suppea, että saadaksesi kurssilta arvosanan 5 joudut tekemään hieman laajemman sovelluksen. 
-- [Labtool]()
+- [Labtool](https://studies.cs.helsinki.fi/labtool/courses/TKT20002.2019.K.K.1)
 - Ohjeita 
   - Kaikki ohjeista eivät ole kurssin alussa vielä ajankohtaisia. Kaikkeen tärkeään tulee aikanaan linkki laskareihin tai harjoitustöiden viikkotavoitteisiin
   - [Aiheideoita ja ohjeita työn harjoitustyön aloittamiseen](https://github.com/mluukkai/ohjelmistotekniikka-syksy-2019/blob/master/web/tyon_aloitus.md)
@@ -66,11 +65,17 @@ Luokka BK107
 | 12 - 14 | | Atte | Erkka | 
 | 14 - 16 | | Kevin | Jussi | Maaret | Virva
 
+#### Pajaohjauksen poikkeukset
+
+Pajaohjausta ei ole tarjolla pääsiäisen opetustauolla 18.4. - 24.4. eikä vappuna 30.4. ja 1.5.
+
+Perjantain 3.5. pajaohjaus siirretty ajalle kello 10-12 
+
 ## Aikataulu 
 
 ### viikko 1
 
-Palautuksen deadline ti 19.3 klo 23:59
+Palautuksen deadline ti 19.3. klo 23:59
 
 - Maanantaina 11.3. klo 14-16 kurssin aloitustilaisuus salissa A111
 - Komentorivi- ja Git-harjoittelu (2p)
@@ -79,7 +84,7 @@ Palautuksen deadline ti 19.3 klo 23:59
 
 ### viikko 2
 
-Palautuksen deadline ti 26.3 klo 23:59
+Palautuksen deadline ti 26.3. klo 23:59
 
 - Harjoitustyön aiheen alustava määrittelydokumentti (1p)
   - katso tarkemmin [täältä](https://github.com/mluukkai/ohjelmistotekniikka-syksy-2019/blob/master/tehtavat/harjoitustyo_viikko2.md) 
@@ -97,7 +102,7 @@ Palautuksen deadline ti 2.4. klo 23:59
 
 ### viikko 4
 
-Palautuksen deadline ti 9.4 klo 23:59
+Palautuksen deadline ti 9.4. klo 23:59
 
 - Harjoitustyö (3p)
   - Ohjelman perustoiminnallisuus 
@@ -108,7 +113,7 @@ Palautuksen deadline ti 9.4 klo 23:59
 
 ### viikko 5
 
-Palautuksen deadline ti 16.4 klo 23:59
+Palautuksen deadline ti 16.4. klo 23:59
 
 - Harjoitustyö (3p)
   - Release 1 
@@ -120,7 +125,7 @@ Palautuksen deadline ti 16.4 klo 23:59
 
 ### viikko 6
 
-Palautuksen deadline pe 26.4 klo 23:59
+Palautuksen deadline pe 26.4. klo 23:59
 
 - Harjoitustyö (3p)
   - Release 2
@@ -131,6 +136,6 @@ Palautuksen deadline pe 26.4 klo 23:59
 
 ### viikko 7
 
-Lopullisen palautuksen deadline pe 3.5 klo 23:59
+Lopullisen palautuksen deadline su 5.5. klo 23:59
 
 - [loppupalautuksen ohjeet](https://github.com/mluukkai/ohjelmistotekniikka-syksy-2019/blob/master/tehtavat/harjoitustyo_viikko7.md) 
