@@ -1,6 +1,6 @@
 # Harjoitustyö, viikko 5
 
-Palautuksen deadline tiistai 16.4. klo 23:59
+Palautuksen deadline tiistai 3.12. klo 23:59
 
 **HUOM** jotta voisit osallistua viikolla 6 pidettävään koodikatselmointiin (josta tarjolla 2 kurssipistettä)
 - viikon 5 deadlinen jälkeen tulee palautusrepositoriosta löytyä osan määrittelydokumentin toiminnallisuutta toteuttava toimiva versio harjoitustyöstä 
