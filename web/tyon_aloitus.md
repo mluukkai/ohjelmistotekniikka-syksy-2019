@@ -106,6 +106,7 @@ Oman aiheen ei ole pakko olla allaolevasta listasta. Listassa on kuitenkin erila
   * Yksinkertainen fysiikkasimulaattori
   * DNA-ketjujen tutkija 
   * Keräilykorttien hallintajärjestelmä
+  * Pelin hahmogeneraattori, joka tallentaa tiedostoon (esim. D&D hahmolomake)
   * Fraktaaligeneraattori
 
 ## Harjoitustyön aloitus
