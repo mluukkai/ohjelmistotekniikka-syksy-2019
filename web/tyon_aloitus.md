@@ -8,6 +8,8 @@ Harjoitustyön on edettävä [viikottaisten tavoitteiden mukaan](https://github.
 
 Koko kurssin arvostelu perustuu pääasiassa harjoitustyöstä saataviin pisteisiin. Osa pisteistä kertyy [aikatauluun](https://github.com/mluukkai/ohjelmistotekniikka-syksy-2019#aikataulu) määriteltyjen viikoittaisten välitavoitteiden kautta, osa taas perustuu työn lopulliseen palautukseen.
 
+**HUOM! Saadaksesi harjoitustyöstä viikkokohtaiset pisteet, sovelluksen tulee toimia laitoksen koneella ja ohjaajien pitää pystyä se niiltä aukaisemaan!!** Esim. [Virtuaalisessatyöasemassa](https://vdi.helsinki.fi) voit testata tätä.
+
 ## Harjoitustyön kieli ja ohjelmointikieli
 
 Harjoitustyön ohjelmointikieli on Java. 
