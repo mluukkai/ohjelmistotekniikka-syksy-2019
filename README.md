@@ -88,8 +88,7 @@ Luokka BK107
 | 12 - 14 | Harri | Virva | Riku | Valtteri | |
 | 14 - 16 | Jere | Roope |      |          | Joakim | 
 
-#### Pajaohjauksen poikkeukset
-
+Paja alkaa vasta tiistaina 29.10.
 
 ## Aikataulu 
 
