@@ -74,7 +74,6 @@ Oman aiheen ei ole pakko olla allaolevasta listasta. Listassa on kuitenkin erila
   * Code Snippet Manageri
   * Laskin, funktiolaskin, graafinen laskin
   * Budjetointisovellus
-  * Opintojen seurantasovellus
   * HTML WYSIWYG-editor (What you see is what you get)
 
 * Reaaliaikaiset pelit
