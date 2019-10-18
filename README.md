@@ -84,9 +84,9 @@ Luokka BK107
 
 | Kellonaika | Maanantai | Tiistai | Keskiviikko | Torstai | Perjantai |
 |:-:|:-:|:-:|:-:|:-:|:-:|
-| 10 - 12 | Olli T | Heli |Olli K-H | Harri |
-| 12 - 14 | | Atte | Erkka | 
-| 14 - 16 | | Kevin | Jussi | Maaret | Virva
+| 10 - 12 |      |       |      |          | |
+| 12 - 14 | Harri | Virva | Riku | Valtteri | |
+| 14 - 16 | Jere | Roope |      |          | Joakim | 
 
 #### Pajaohjauksen poikkeukset
 
