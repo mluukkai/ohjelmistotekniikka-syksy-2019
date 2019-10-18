@@ -95,6 +95,7 @@ Oman aiheen ei ole pakko olla allaolevasta listasta. Listassa on kuitenkin erila
   * Sudoku
   * Muistipeli
   * Ristinolla (mielivaltaisen kokoisella ruudukolla?)
+  * 2048
 
 * Korttipelit
   * En Garde
