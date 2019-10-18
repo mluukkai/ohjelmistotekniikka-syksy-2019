@@ -4,6 +4,8 @@ Palautuksen deadline tiistaina ti 12.11. klo 23:59
 
 Muista pushata tehtävät GitHubiin ennen viikkodeadlinea. Myöhässä tehty palautus ei tuo pisteitä.
 
+**HUOM! Saadaksesi harjoitustyöstä viikkokohtaiset pisteet, sovelluksen tulee toimia laitoksen koneella ja ohjaajien pitää pystyä se niiltä aukaisemaan!!** Esim. [Virtuaalisessatyöasemassa](https://vdi.helsinki.fi) voit testata tätä.
+
 ## Alustava määrittelydokumentti
 
 Harjoitustyön tekeminen aloitetaan päättämällä aihe ja kuvaamalla se _alustavassa määrittelydokumentissa_, eli työlle tehdään [vaatimusmäärittely](https://github.com/mluukkai/ohjelmistotekniikka-syksy-2019/blob/master/web/materiaali.md#vaatimusmäärittely).
