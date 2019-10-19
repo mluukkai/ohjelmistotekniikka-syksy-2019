@@ -15,7 +15,7 @@ Kurssilla ei ole koetta. Harjoitustyö tulee tehdä kurssin aikataulujen puittei
 Tarkemmat arvosteluperusteet [täällä](https://github.com/mluukkai/ohjelmistotekniikka-syksy-2019/blob/master/web/arvosteluperusteet.md).
 
 
-## HUOM!  Kurssila tarvitset java 8 versiota
+## HUOM!  Kurssilla tarvitset java 8 versiota
 
 Tarkasta koneesi java-versio kirjoittamalla terminaaliin käsky:
 
