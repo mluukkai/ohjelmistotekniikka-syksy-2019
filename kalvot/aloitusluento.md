@@ -5,11 +5,17 @@
 # Ohjelmistotekniikka
 
 - Kurssilla tutustutaan ohjelmistokehityksen periaatteisiin sekä menetelmiin ja sovelletaan niitä toteuttamalla pienehkö harjoitustyö
+
+. . .
+
 - Kurssi nykyään osa _aineopintoja_
 - Pakollisina _esitietoina_
     - Ohjelmoinnin jatkokurssi
     - Tietokantojen perusteet
 - Hyödyllinen esitieto: Tietokone työvälineenä
+
+. . .
+
 - Kurssimateriaali https://github.com/mluukkai/ohjelmistotekniikka-syksy-2019
 
 # Suoritusmuoto
@@ -17,34 +23,31 @@
 - Kolmella ensimmäisellä viikolla ohjauksessa tai omatoimisesti tehtävät **laskarit**
     - palautetaan "internettiin"
 - Viikolla 2 aloitetaan itsenäisesti tehtävä **harjoitustyö**
-- Työtä edistetään pala palalta viikoittaisten tavoitteiden ohjaamana
+- Työtä edistetään pala palalta _viikoittaisten tavoitteiden_ ohjaamana
 - Kurssilla ei ole koetta 
 
 . . .
 
 - Harjoitustyö tulee tehdä kurssin aikataulujen puitteissa
-- Kesken jäänyttä harjoitustyötä ei voi jatkaa seuraavalla kurssilla (syksyllä 2019)
--  Muista siis varata riittävästi aikaa (10-15h viikossa) koko periodin ajaksi!
+- Kesken jäänyttä harjoitustyötä ei voi jatkaa seuraavalla kurssilla (keväällä 2020)
+- Muista siis varata riittävästi aikaa (10-15h viikossa) koko periodin ajaksi!
 
 
 # Luento, deadlinet ja ohjaus
 
-- Kurssilla on vain yksi luento **nyt** eli ma 11.3. klo 14-16 A111
+- Kurssilla on vain yksi luento **nyt** eli ma 28.3. klo 14-16 B123
 - Laskareiden ja harjoitustyön välitavoitteiden viikoittaiset deadlinet _tiistaina klo 23:59_
-  - deadlineen on pari poikkeusta, ks kurssisivu
 
 . . .
 
 - Paja salissa BK107
 
 alku  ma  ti  ke  to  pe
-----  --- --- --- --- ---
-10    x   x   x    x    
-12        x   x         
-14        x   x    x   x
-16                                         
+----  --- --- --- --- --- 
+12    x   x   x    x     
+14    x   x            x      
 
-- Paja alkaa huomenna 12.3
+- Paja alkaa huomenna 29.10
 
 # Arvosteluperusteet
 
@@ -53,9 +56,9 @@ alku  ma  ti  ke  to  pe
         - osa viikkopisteistä tulee laskareista
     - Koodikatselmointi 2p
     - Dokumentaatio	10p   
-    - Testaus	7p	
+    - Testaus 7p	
     - Lopullinen ohjelma 24p
-        - Laajuus, ominaisuudet ja koodin laatu		
+        - laajuus, ominaisuudet ja koodin laatu		
 - Arvosanaan 1 riittää 30 pistettä, arvosanaan 5 tarvitaan noin 55 pistettä.
 - Läpipääsyyn vaatimuksena on lisäksi vähintään 10 pistettä lopullisesta ohjelmasta
 
@@ -70,7 +73,7 @@ alku  ma  ti  ke  to  pe
 
 . . .
 
-- Sovellettavasta menetelmästä riippumatta ohjelmiston systemaattinen kehittäminen, eli _ohjelmistotuotanto_ (engl. Software engineering) sisältää useita erilaisia aktiviteettejä/vaiheita
+- Sovellettavasta menetelmästä riippumatta ohjelmiston systemaattinen kehittäminen, eli _ohjelmistotuotanto_ (engl. software engineering) sisältää useita erilaisia aktiviteettejä/vaiheita
     - _vaatimusmäärittelyssä_ selvitetään kuinka ohjelmiston halutaan toimivan
     - _suunnittelussa_ mietitään, miten halutun kaltainen ohjelmisto tulisi rakentaa
     - _toteutusvaiheessa_ määritelty ja suunniteltu ohjelmisto koodataan
@@ -78,7 +81,6 @@ alku  ma  ti  ke  to  pe
         - ei ole liian buginen
         - toimii kuten vaatimusmäärittely sanoo
     - _ylläpitovaiheessa_ ohjelmisto on jo käytössä ja siihen tehdään bugikorjauksia ja mahdollisia laajennuksia
-
 
 # Vaatimusmäärittely
 
@@ -98,8 +100,8 @@ alku  ma  ti  ke  to  pe
 
 - On olemassa lukuisia tapoja dokumentoida vaatimuksen
 - Kurssin ennen vuotta 2018 pidetyissä versioissa käyttäjien vaatimukset dokumentointiin _käyttötapauksina_ (engl. use case)
-    - tapa on jo vanhahtava ja hylkäämme sen
-- Kurssilla Ohjelmistotuotanto tutustumme nykyään yleisesti käytössä oleviin _käyttäjätarinoihin_ (engl. user story)
+    - tapa on jo vanhahtava ja olemme jo hylänneet sen sen
+- Kurssilla _Ohjelmistotuotanto_ tutustumme nykyään yleisesti käytössä oleviin _käyttäjätarinoihin_ (engl. user story)
 
 . . .
 
@@ -108,7 +110,7 @@ alku  ma  ti  ke  to  pe
 
 # Kurssin referenssisovellus: TodoApp
 
-Osoitteesta https://github.com/mluukkai/OtmTodoApp löytyy sovellus, joka havainnollistaa monia kurssin asioita ja toimii mallina omalle harjoitustyölle
+Osoitteesta https://github.com/mluukkai/OtmTodoApp löytyy sovellus, joka havainnollistaa monia kurssin asioita ja toimii myös mallina omalle harjoitustyölle
 
 - _todoapp_ eli sovellus, jonka avulla käyttäjien on mahdollista pitää kirjaa omista tekemättömistä töistä, eli _todoista_
 
@@ -118,8 +120,8 @@ Katsotaan esimerkkinä Todo-sovelluksen vaatimusmäärittelyä
 
 - Vaatimusmäärittely aloitetaan tunnistamalla järjestelmän erityyppiset _käyttäjäroolit_ 
 - Todo-sovelluksesta tunnistetaan kaksi käyttäjäroolia 
-    - normaalit käyttäjät
-    - laajemmilla oikeuksilla varustetut ylläpitäjät 
+    - _normaalit käyttäjät_
+    - laajemmilla oikeuksilla varustetut _ylläpitäjät_ 
 
 . . .
 
@@ -131,7 +133,7 @@ Katsotaan esimerkkinä Todo-sovelluksen vaatimusmäärittelyä
     - käyttäjä voi luoda järjestelmään käyttäjätunnuksen
     - käyttäjä voi kirjautua järjestelmään
     - kirjautumisen jälkeen käyttäjä näkee omat tekemättömät työt eli todot
-    - kirjaantunut käyttäjä voi luoda uuden todon
+    - kirjaantunut käyttäjä voi luoda uuden tehtävän eli _todon_
     - kirjaantunut käyttäjä voi merkitä todon tehdyksi, jolloin todo häviää listalta
 
 . . .
@@ -146,13 +148,17 @@ Katsotaan esimerkkinä Todo-sovelluksen vaatimusmäärittelyä
 - Todo-sovellusta koskevat seuraavat rajoitteet:
     - ohjelmiston tulee toimia Linux- ja OSX-käyttöjärjestelmillä varustetuissa koneissa
     - tuteutetaan Java FX -kirjaston avulla
-    - käyttäjien ja töiden tiedot talletetaan paikallisen koneen levylle
+    - käyttäjien ja todojen tiedot talletetaan paikallisen koneen levylle
     
 . . .  
 
 - Vaatimusmäärittelyn aikana hahmotellaan yleensä myös sovelluksen käyttöliittymä
 
 Vaatimusten kirjaamisesta voi ottaa tarkemmin mallia sovelluksen GitHub-repositoriosta https://github.com/mluukkai/OtmTodoApp
+
+# Todo-sovelluksen käyttöliittymäluonnos
+
+![](https://raw.githubusercontent.com/mluukkai/OtmTodoApp/master/dokumentaatio/kuvat/v-1.png){ width=370 }
 
 # Suunnittelu
 
@@ -163,7 +169,7 @@ Vaatimusten kirjaamisesta voi ottaa tarkemmin mallia sovelluksen GitHub-reposito
 - _Arkkitehtuurisuunnittelussa_ määritellään ohjelman rakenne karkealla tasolla 
     - mistä suuremmista rakennekomponenteista ohjelma koostuu
     - miten komponentit yhdistetään, eli minkälaisia komponenttien väliset rajapinnat ovat
-    - mitä riippuvuuksia ohjelmalla on esim. tietokantoihin ja ulkoisiin rajapintoihin
+    - mitä riippuvuuksia ohjelmalla on esim. ohjelmakirjastoihin, tietokantoihin ja ulkoisiin rajapintoihin
 
 . . .
 
@@ -247,18 +253,18 @@ Teemme kurssin harjoitustyötä ketterässä hengessä viikon mittaisilla iteraa
 # Työkaluja
 
 - Tarvitsemme ohjelmistokehityksessä suuren joukon käytännön työkaluja. 
-- Komentorivi ja Versionhallinta
-    - Olet jo ehkä käyttänyt muilla kursseilla komentoriviä ja git-versionhallintaa
+- Komentorivi ja versionhallinta
+    - olet jo ehkä käyttänyt muilla kursseilla komentoriviä ja git-versionhallintaa
     - molemmat ovat tärkeässä roolissa ohjelmistokehityksessä
     - harjoitellaan viikon 1 laskareissa
 
 . . .
 
 - Maven
-    - Olet todennäköisesti ohjelmoinut Javaa  NetBeansilla ja tottunut painamaan "vihreää nappia" tai "mustaa silmää"
+    - Olet todennäköisesti ohjelmoinut Javaa NetBeansilla ja tottunut painamaan "vihreää nappia" tai "mustaa silmää"
     - tutkimme kurssilla hieman miten Javalla tehdyn ohjelmiston _hallinnointi_ tapahtuu NetBeansin "ulkopuolella"
         - koodin kääntäminen, koodin sekä testin suorittaminen ja koodin paketoiminen NetBeansin ulkopuolella suoritettavissa olevaksi jar-paketiksi 
-    - Java-projektien hallinnointiin on olemassa muutamia vaihtoehtoja. Käytämme monille TiKaPesta tuttua _mavenia_
+    - Java-projektien hallinnointiin on olemassa muutamia vaihtoehtoja, äytämme monille TiKaPesta tuttua _mavenia_
 
 # JUnit
 
@@ -281,7 +287,7 @@ Teemme kurssin harjoitustyötä ketterässä hengessä viikon mittaisilla iteraa
 # JavaDoc
 
 - Osa ohjelmiston dokumentointia on lähdekoodin luokkien julkisten metodien kuvaus
-- Javassa lähdekoodi dokumentoidaan käyttäen JavaDoc-työkalua
+- Javassa lähdekoodi dokumentoidaan käyttäen _JavaDoc_-työkalua
 - Dokumentointi tapahtuu kirjoittamalla koodin yhteyteen sopivasti muotoiltuja kommentteja
 
 ![](https://raw.githubusercontent.com/mluukkai/ohjelmistotekniikka-syksy-2019/master/web/images/k-1.png){ width=400 }
@@ -308,7 +314,7 @@ NetBeans osaa näyttää ohjelmoidessa koodiin määritellyn JavaDocin
 
 . . .
 
-- UML eli Unified Modeling Language on 1997 standardoitu Olio-ohjelmistojen mallintamiseen tarkoitettu mallinnuskieli
+- _UML_ eli _Unified Modeling Language_ on 1997 standardoitu olio-ohjelmistojen mallintamiseen tarkoitettu mallinnuskieli
 - UML sisältää 13 erilaista kaaviotyyppiä
 - UML oli aikoinaan todella suosittu, nyt sen suosio on hiipumaan päin, muutama tärkein kaaviotyyppi kannattaa kuitenkin osata
 
@@ -318,7 +324,7 @@ NetBeans osaa näyttää ohjelmoidessa koodiin määritellyn JavaDocin
 
 # Luokkakaaviot
 
-- Tietokantojen perusteista tuttujen luokkakaavioiden käyttötarkoitus on ohjelman luokkien ja niiden välisten suhteiden kuvailu
+- Kurssilta Tietokantojen perusteet tuttujen _luokkakaavioiden_ käyttötarkoitus on ohjelman luokkien ja niiden välisten suhteiden kuvailu
 - Todo-sovelluksen oleellista tietosisältöä kuvaavat luokat
 
 ```java
@@ -346,7 +352,7 @@ public class Todo {
 
 # Todo-sovelluksen tietosisällön luokkakaavio
 
-- Yleensä ei ole mielekästä kuvata luokkia tällä tarkkuudella, eli luokkakaavioihin riittää merkitä luokan nimi
+- Yleensä ei ole mielekästä kuvata luokkia tällä tarkkuudella, eli **luokkakaavioihin riittää merkitä luokan nimi**
 
 ![](https://raw.githubusercontent.com/mluukkai/ohjelmistotekniikka-syksy-2019/master/web/images/l-4.png){ width=300 }
 
@@ -395,6 +401,8 @@ public class Kassapaate {
 
 # Pakkauskaavio
 
+- Ohjelmiston korkeamman tason rakenne näkyy yleensä siinä miten koodi on jaettu _pakkauksiin_
+
 . . .
 
 - Todo-sovelluksen koodi on sijoitettu _pakkauksiin_ seuraavasti:
@@ -423,10 +431,13 @@ public class Kassapaate {
 
 - Pakkausten välille on merkitty riippuvuus jos pakkauksen luokat käyttävät toisen pakkauksen luokkia
 
-# Toiminnan kuvaaminen
+# Toiminnallisuuden kuvaaminen
 
 - Luokka- ja pakkauskaaviot kuvaavat ohjelman rakennetta
-- Ohjelman toiminta ei kuitenkaan tule niistä ilmi millään tavalla. 
+- Ohjelman toiminta ei kuitenkaan tule niistä ilmi millään tavalla
+
+. . .
+
 - Esim. Ohpen Unicafe-tehtävä
 ![](https://raw.githubusercontent.com/mluukkai/ohjelmistotekniikka-syksy-2019/master/web/images/l-15.png){ width=400 }
 - Vaikka kaavioon on nyt merkitty metodien nimet, ei ohjelman toimintalogiikka selviä kaaviosta
@@ -490,7 +501,10 @@ Mitä tapahtuu, jos maksukortin saldo on 2 euroa, eli vähemmän kuin lounaan hi
 
 - Edetään viikottaisten tavoitteiden mukaan 
 - Työ on saatava valmiiksi kurssin aikana ja sitä on toteutettava tasaisesti, muuten kurssi katsotaan keskeytetyksi
-- Samaa ohjelmaa ei voi jatkaa seuraavalla kurssilla (eli syksyllä 2019), vaan työ on aloitettava uudella aiheella alusta
+- Samaa ohjelmaa ei voi jatkaa seuraavalla kurssilla (eli keväällä 2020), vaan työ on aloitettava uudella aiheella alusta
+
+. . .
+
 - Koko kurssin arvostelu perustuu pääasiassa harjoitustyöstä saataviin pisteisiin 
 - Osa pisteistä kertyy viikoittaisten välitavoitteiden kautta, osa taas perustuu työn lopulliseen palautukseen
 
@@ -508,7 +522,7 @@ Mitä tapahtuu, jos maksukortin saldo on 2 euroa, eli vähemmän kuin lounaan hi
 # Ohjelman toteutus
 
 - Toteutus etenee "iteratiivisesti ja inkrementaalisesti"  
-    - Heti ensimmäisellä viikolla toteutetaan pieni osa toiminnallisuudesta
+    - Heti ensimmäisellä viikolla toteutetaan pieni käyttökelpoinen osa toiminnallisuudesta
     - ohjelman ydin pidetään koko ajan toimivana, uutta toiminnallisuutta lisäten, kunnes tavoiteltu laajuus on saavutettu 
 - Ohjelman rakenteeseen kannattaa kysyä vinkkejä pajasta, sekä ottaa mallia Ohjelmoinnin jatkokurssilta sekä kurssisivuilta löytyvistä vihjeistä 
 
@@ -527,7 +541,7 @@ Mitä tapahtuu, jos maksukortin saldo on 2 euroa, eli vähemmän kuin lounaan hi
 
 - Tavoitteena on tuottaa ohjelma, joka voitaisiin antaa toiselle opiskelijalle ylläpidettäväksi ja täydennettäväksi
     - koodin on siis oltava ymmärrettävää ja jatkokehitityksen mahdollistavaa
-- Lopullisessa palautuksessa on oltava lähdekoodin lisäksi dokumentaatio ja automaattiset testit sekä jar-tiedosto, joka mahdollistaa ohjelman suorittamisen NetBeansin ulkopuolella.
+- Lopullisessa palautuksessa on oltava lähdekoodin lisäksi dokumentaatio ja automaattiset testit sekä jar-tiedosto, joka mahdollistaa ohjelman suorittamisen NetBeansin ulkopuolella
 - Toivottava dokumentaation taso käy ilmi referenssisovelluksesta https://github.com/mluukkai/OtmTodoApp
 
 # Hyvän aiheen ominaisuudet
@@ -556,7 +570,7 @@ Mitä tapahtuu, jos maksukortin saldo on 2 euroa, eli vähemmän kuin lounaan hi
 
 # Huonon aiheen ominaisuuksia
 
-- Kannattaa yrittää välttää aiheita, joissa pääpaino on tiedon säilömisessä tai monimutkaisessa käyttöliittymässä
+- Kannattaa yrittää välttää aiheita, joissa pääpaino on tiedon säilömisessä tai liian monimutkaisessa käyttöliittymässä
 - Paljon tietoa säilövät, esim. yli 3 tietokantataulua tarvitsevat sovellukset sopivat yleensä paremmin kurssille Tietokantasovellus 
 - Käyttöliittymäkeskeisissä aiheissa (esim. tekstieditori) voi olla vaikea keksiä sovelluslogiikkaa, joka on enemmän tämän kurssin painopiste 
 
@@ -565,10 +579,9 @@ Mitä tapahtuu, jos maksukortin saldo on 2 euroa, eli vähemmän kuin lounaan hi
 - Hyötyohjelmat
     - Aritmetiikan harjoittelua
     - Tehtävägeneraattori, joka antaa käyttäjälle tehtävän sekä mallivastauksen (esim. matematiikkaa, fysiikkaa, kemiaa, ...)
-    - Telegram- tai Slack-botti
     - Code Snippet Manageri
     - Laskin, funktiolaskin, graafinen laskin
-    - Budjetointi-sovellus
+    - Budjetointisovellus
     - Opintojen seurantasovellus
     - HTML WYSIWYG-editor (What you see is what you get)
 
@@ -614,11 +627,17 @@ Mitä tapahtuu, jos maksukortin saldo on 2 euroa, eli vähemmän kuin lounaan hi
 - Ennen loppupalautusta jaossa 19 pistettä
     - Viikkodeadlinet 17p
     - Koodikatselmointi 2p
+
+. . .
+
 - Loppupalautus ratkaise 41 pisteen kohtalon
     - Dokumentaatio	12p   
     - Testaus 5p	
     - Lopullinen ohjelma 24p
         - Laajuus, ominaisuudet ja koodin laatu		
+
+. . .
+
 - Arvosanaan 1 riittää 30 pistettä, arvosanaan 5 tarvitaan noin 55 pistettä
 - Läpipääsyyn vaatimuksena on lisäksi vähintään 10 pistettä lopullisesta ohjelmasta
 
@@ -631,16 +650,38 @@ Ohjelman pisteet jakautuvat seuraavasti
     - 1-2p monimutkainen tekstikäyttöliittymä
     - 2-3p yksinkertainen graafinen käyttöliittymä
     - 4p laaja graafinen käyttöliittymä
+
+. . .
+
 - tiedon pysyväistalletus 4p
     - 0p ei pysyväistalletusta
     - 1-2p tiedosto 
     - 3-4p tietokanta
     - 3-4p internet
+
+. . .
+
 - sovelluslogiikan kompleksisuus 3p
 - ohjelman lajuus 5p
+
+. . .
+
 - ulkoisten kirjastojen hyödyntäminen 1p
 - suorituskelpoinen jar-tiedosto  1p
 - koodin laatu 6p
+
+# Harjoitustyön toimivuus
+
+-  Koneiden konfiguraatioissa on eroja, ja tällä kurssilla *ei riitä* että hajoitustyössä tekemäsi sovellus toimii vain omalla koneellasi
+
+. . .
+
+- Harjoitustyösi pitää pystyä joka viikko suorittamaan, kääntämään ja testaamaan komentoriviltä käsin laitoksen linux-koneilla (tai uusimmat päivitykset sisältävällä cubbli-linuxilla), muussa tapauksessa työtä ei tarkasteta ja menetät viikon/loppupalautuksen pisteet.
+
+. . .
+
+- Pääset testaamaan ohjelmaasi laitoksen koneella myös kotoa käsin käyttämällä etätyöpöytää
+https://helpdesk.it.helsinki.fi/ohjeet/tietokone-ja-tulostaminen/tyoasemapalvelu/etakaytettavat-tyopoydat-vdi-ja-vmware
 
 # Koodin laatuvaatimukset
 
