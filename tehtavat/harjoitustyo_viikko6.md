@@ -1,6 +1,6 @@
 # Harjoitustyö, viikko 6
 
-Palautuksen deadline **perjantai 26.4. klo 23:59**. 
+Palautuksen deadline **ti 10.12. klo 23:59**. 
 
 **Muutama huomio**
 
@@ -9,6 +9,8 @@ Palautuksen deadline **perjantai 26.4. klo 23:59**.
 
   - Nyt kannattaa kerrata loppupalautuksen [arvosteluperusteet](https://github.com/mluukkai/ohjelmistotekniikka-syksy-2019/blob/master/web/arvosteluperusteet.md)
   - Viimeiselläkin viikolla ohjelmaa ehtii vielä kasvattamaa, mutta myös dokumentoinnille kannattaa jättää aikaa
+  
+  **HUOM! Saadaksesi harjoitustyöstä viikkokohtaiset pisteet, sovelluksen tulee toimia laitoksen koneella ja ohjaajien pitää pystyä se niiltä aukaisemaan!!** Esim. [Virtuaalisessatyöasemassa](https://vdi.helsinki.fi) voit testata tätä.
 
 Arvostelussa kiinnitetään huomiota seuraaviin seikkoihin
 

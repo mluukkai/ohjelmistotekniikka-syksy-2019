@@ -8,6 +8,8 @@ Harjoitustyön on edettävä [viikottaisten tavoitteiden mukaan](https://github.
 
 Koko kurssin arvostelu perustuu pääasiassa harjoitustyöstä saataviin pisteisiin. Osa pisteistä kertyy [aikatauluun](https://github.com/mluukkai/ohjelmistotekniikka-syksy-2019#aikataulu) määriteltyjen viikoittaisten välitavoitteiden kautta, osa taas perustuu työn lopulliseen palautukseen.
 
+**HUOM! Saadaksesi harjoitustyöstä viikkokohtaiset pisteet, sovelluksen tulee toimia laitoksen koneella ja ohjaajien pitää pystyä se niiltä aukaisemaan!!** Esim. [Virtuaalisessatyöasemassa](https://vdi.helsinki.fi) voit testata tätä.
+
 ## Harjoitustyön kieli ja ohjelmointikieli
 
 Harjoitustyön ohjelmointikieli on Java. 
@@ -69,11 +71,9 @@ Oman aiheen ei ole pakko olla allaolevasta listasta. Listassa on kuitenkin erila
   * Aritmetiikan harjoittelua
   * Tehtävägeneraattori, joka antaa käyttäjälle tehtävän sekä mallivastauksen (esim. matematiikkaa, fysiikkaa, kemiaa, ...)
   * Opintojen seurantajärjestelmä
-  * Telegram- tai Slack-botti
   * Code Snippet Manageri
   * Laskin, funktiolaskin, graafinen laskin
   * Budjetointisovellus
-  * Opintojen seurantasovellus
   * HTML WYSIWYG-editor (What you see is what you get)
 
 * Reaaliaikaiset pelit
@@ -94,6 +94,7 @@ Oman aiheen ei ole pakko olla allaolevasta listasta. Listassa on kuitenkin erila
   * Sudoku
   * Muistipeli
   * Ristinolla (mielivaltaisen kokoisella ruudukolla?)
+  * 2048
 
 * Korttipelit
   * En Garde
@@ -105,6 +106,7 @@ Oman aiheen ei ole pakko olla allaolevasta listasta. Listassa on kuitenkin erila
   * Yksinkertainen fysiikkasimulaattori
   * DNA-ketjujen tutkija 
   * Keräilykorttien hallintajärjestelmä
+  * Pelin hahmogeneraattori, joka tallentaa tiedostoon (esim. D&D hahmolomake)
   * Fraktaaligeneraattori
 
 ## Harjoitustyön aloitus

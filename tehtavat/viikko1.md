@@ -1,12 +1,14 @@
 # Viikon 1 tehtävät
 
-Tehtävät on tarkoitus tehdä joko pajassa tai omatoimisesti. Tehtävien palautuksen deadline on tiistai 19.3 klo 23:59
+Tehtävät on tarkoitus tehdä joko pajassa tai omatoimisesti. Tehtävien palautuksen deadline on tiistai 5.11 klo 23:59
 
 Tehtävät palautetaan Githubin ja Labtoolin avulla. Lisää palautuksesta myöhemmin. Osa tehtävistä ei näy palautuksesta mitenkään. Niiden tekemättä jättäminen näkyy puuttuvana osaamisena ja saattaa aiheuttaa myöhemmin hankaluuksia.
 
 Viikon palautuksista on tarjolla 2 pistettä. Pisteytys arvioidaan palautuksen laadun perusteella.
 
 Muista pushata tehtävät GitHubiin ennen viikkodeadlinea. Myöhässä tehty palautus ei tuo pisteitä.
+
+**HUOM!! Tehtävissä tarvitset [java8-version](https://github.com/mluukkai/ohjelmistotekniikka-syksy-2019/blob/master/misc/Java8.md)**
 
 ## Komentorivin harjoittelua
 
@@ -636,7 +638,7 @@ Nyrkkisääntönä kannattaa pitää aina sitä, että kun rupeat työskentelem�
 
 ## Labtool
 
-Rekisteröi nyt omat tietosi ja luomasi repositorio [Labtooliin](https://studies.cs.helsinki.fi/labtool/courses/TKT20002.2019.K.K.1). Valitse kurssiksi _Ohjelmistotekniikka_ jos joudut tekemään valinnan. 
+Rekisteröi nyt omat tietosi ja luomasi repositorio [Labtooliin](https://study.cs.helsinki.fi/labtool/courses/TKT20002.2019.K.K.1). Valitse kurssiksi _Ohjelmistotekniikka_ jos joudut tekemään valinnan. 
 
 Labtool kysyy myös harjoitustyön aihetta, jos et ole vielä varma aiheestasi voit muuttaa aiheen nimeä myöhemmin.
 

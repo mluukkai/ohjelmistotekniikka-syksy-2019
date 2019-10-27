@@ -14,6 +14,26 @@ Kurssilla ei ole koetta. Harjoitustyö tulee tehdä kurssin aikataulujen puittei
 
 Tarkemmat arvosteluperusteet [täällä](https://github.com/mluukkai/ohjelmistotekniikka-syksy-2019/blob/master/web/arvosteluperusteet.md).
 
+
+## HUOM!  Kurssilla tarvitset java 8 versiota
+
+Tarkasta koneesi java-versio kirjoittamalla terminaaliin käsky:
+
+`mvn -v`
+
+Jos koneellasi on jokin muu versio vaihda se alla olevan ohjeen mukaisesti:
+
+Jotta kurssin [esimerkkisovelluksen](https://github.com/mluukkai/OtmTodoApp) saa toimimaan laitoksen koneilla vaihda se alla olevalla terminaalikäskyllä
+
+`export JAVA_HOME=/usr/lib/jvm/java-1.8.0-openjdk-amd64/`
+
+Komennon onnistumisen varmistamiseksi mvn -v rupeaa näyttämään oikeaa versiota. 
+Eli java 11 sijaan mvn -v sanoo java8.
+Tuon aiemmassa komennossa olevan polun löytää helposti ainakin cubblilla komennolla:
+
+`update-alternatives --list java`
+
+
 ## Kirjoitusvirheitä 
 
 Jos huomaat tehtävissä tai muussa materiaalissa kirjoitusvirheitä, kirjaudu GitHubiin ja toimi [täällä](https://github.com/mluukkai/ohjelmistotekniikka-syksy-2019/blob/master/web/typokorjaukset.md) olevan ohjeen mukaan.
@@ -36,9 +56,12 @@ Jos huomaat tehtävissä tai muussa materiaalissa kirjoitusvirheitä, kirjaudu G
   - viikko 5 [harjoitustyö](https://github.com/mluukkai/ohjelmistotekniikka-syksy-2019/blob/master/tehtavat/harjoitustyo_viikko5.md)
   - viikko 6 [harjoitustyö](https://github.com/mluukkai/ohjelmistotekniikka-syksy-2019/blob/master/tehtavat/harjoitustyo_viikko6.md)
   - viikko 7 [harjoitustyö](https://github.com/mluukkai/ohjelmistotekniikka-syksy-2019/blob/master/tehtavat/harjoitustyo_viikko7.md)
+  
+**HUOM! Saadaksesi harjoitustyöstä viikkokohtaiset pisteet, sovelluksen tulee toimia laitoksen koneella ja ohjaajien pitää pystyä se niiltä aukaisemaan!!** Esim. [Virtuaalisessatyöasemassa](https://vdi.helsinki.fi) voit testata tätä.
+
 - Kurssin referenssisovellus [OtmTodoApp](https://github.com/mluukkai/OtmTodoApp)
   - Sovelluksen tarkoituksena on demonstroida erästä tapaa tehdä suurin piirtein täysiin pisteisiin riittävä dokumentaatio ja testaus projektillesi. Itse ohjelma on sen verran suppea, että saadaksesi kurssilta arvosanan 5 joudut tekemään hieman laajemman sovelluksen. 
-- [Labtool](https://studies.cs.helsinki.fi/labtool/courses/TKT20002.2019.K.K.1)
+- [Labtool](https://study.cs.helsinki.fi/labtool/courses/TKT20002.2019.K.K.1)
 - Ohjeita 
   - Kaikki ohjeista eivät ole kurssin alussa vielä ajankohtaisia. Kaikkeen tärkeään tulee aikanaan linkki laskareihin tai harjoitustöiden viikkotavoitteisiin
   - [Aiheideoita ja ohjeita työn harjoitustyön aloittamiseen](https://github.com/mluukkai/ohjelmistotekniikka-syksy-2019/blob/master/web/tyon_aloitus.md)
@@ -61,15 +84,11 @@ Luokka BK107
 
 | Kellonaika | Maanantai | Tiistai | Keskiviikko | Torstai | Perjantai |
 |:-:|:-:|:-:|:-:|:-:|:-:|
-| 10 - 12 | Olli T | Heli |Olli K-H | Harri |
-| 12 - 14 | | Atte | Erkka | 
-| 14 - 16 | | Kevin | Jussi | Maaret | Virva
+| 10 - 12 |      |       |      |          | |
+| 12 - 14 | Harri | Virva | Riku | Valtteri | |
+| 14 - 16 | Jere | Roope |      |          | Joakim | 
 
-#### Pajaohjauksen poikkeukset
-
-Pajaohjausta ei ole tarjolla pääsiäisen opetustauolla 18.4. - 24.4. eikä vappuna 30.4. ja 1.5.
-
-Perjantain 3.5. pajaohjaus siirretty ajalle kello 10-12 
+Paja alkaa vasta tiistaina 29.10.
 
 ## Aikataulu 
 
@@ -77,14 +96,14 @@ Perjantain 3.5. pajaohjaus siirretty ajalle kello 10-12
 
 Palautuksen deadline ti 5.11. klo 23:59
 
-- Maanantaina 24.10. klo 14-16 kurssin aloitustilaisuus salissa A111
+- Maanantaina 28.10. klo 14-16 kurssin aloitustilaisuus salissa A111
 - Komentorivi- ja Git-harjoittelu (2p)
   - Pajassa tehtävät tai omatoimiset [tehtävät](https://github.com/mluukkai/ohjelmistotekniikka-syksy-2019/blob/master/tehtavat/viikko1.md)
 - Tehtävien palautus tapahtuu tekemällä repositorio githubiin ja rekisteröitymällä labtooliin
 
 ### viikko 2
 
-Palautuksen deadline ti 26.3. klo 23:59
+Palautuksen deadline ti 12.11. klo 23:59
 
 - Harjoitustyön aiheen alustava määrittelydokumentti (1p)
   - katso tarkemmin [täältä](https://github.com/mluukkai/ohjelmistotekniikka-syksy-2019/blob/master/tehtavat/harjoitustyo_viikko2.md) 
@@ -94,7 +113,7 @@ Palautuksen deadline ti 26.3. klo 23:59
 
 ### viikko 3
 
-Palautuksen deadline ti 2.4. klo 23:59
+Palautuksen deadline ti 19.11. klo 23:59
 
 - Harjoitustyön koodin runko valmiina (2p)
   - katso tarkemmin [täältä](https://github.com/mluukkai/ohjelmistotekniikka-syksy-2019/blob/master/tehtavat/harjoitustyo_viikko3.md) 
@@ -102,7 +121,7 @@ Palautuksen deadline ti 2.4. klo 23:59
 
 ### viikko 4
 
-Palautuksen deadline ti 9.4. klo 23:59
+Palautuksen deadline ti 26.11. klo 23:59
 
 - Harjoitustyö (3p)
   - Ohjelman perustoiminnallisuus 
@@ -113,7 +132,7 @@ Palautuksen deadline ti 9.4. klo 23:59
 
 ### viikko 5
 
-Palautuksen deadline ti 16.4. klo 23:59
+Palautuksen deadline ti 3.12. klo 23:59
 
 - Harjoitustyö (3p)
   - Release 1 
@@ -125,7 +144,7 @@ Palautuksen deadline ti 16.4. klo 23:59
 
 ### viikko 6
 
-Palautuksen deadline pe 26.4. klo 23:59
+Palautuksen deadline ti 10.12. klo 23:59
 
 - Harjoitustyö (3p)
   - Release 2
@@ -136,6 +155,6 @@ Palautuksen deadline pe 26.4. klo 23:59
 
 ### viikko 7
 
-Lopullisen palautuksen deadline su 5.5. klo 23:59
+Lopullisen palautuksen deadline su 22.12. klo 23:59
 
 - [loppupalautuksen ohjeet](https://github.com/mluukkai/ohjelmistotekniikka-syksy-2019/blob/master/tehtavat/harjoitustyo_viikko7.md) 

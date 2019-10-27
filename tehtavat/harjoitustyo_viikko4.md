@@ -1,10 +1,12 @@
 # Harjoitustyö, viikko 4
 
-Palautuksen deadline ti 9.4. klo 23:59
+Palautuksen deadline ti 26.11. klo 23:59
 
 Muista pushata  harjoitustyöhön liittyvät asiat GitHubiin ennen viikkodeadlinea.
 
 - Klo 00 jälkeen tulevia repositorion päivityksiä ei huomioida pisteytyksessä, eli ne tuovat 0 pistettä.
+
+**HUOM! Saadaksesi harjoitustyöstä viikkokohtaiset pisteet, sovelluksen tulee toimia laitoksen koneella ja ohjaajien pitää pystyä se niiltä aukaisemaan!!** Esim. [Virtuaalisessatyöasemassa](https://vdi.helsinki.fi) voit testata tätä.
 
 Palautuksesta on tarjolla 3 kurssipistettä.
 
