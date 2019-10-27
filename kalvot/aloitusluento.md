@@ -1,6 +1,6 @@
 % Ohjelmistotekniikka
-% Matti Luukkainen, Olli Keski-Hynnilä ja 9 ohjaajaa
-% 11.3.2019
+% Matti Luukkainen, Virva Svaja ja 6 ohjaajaa
+% 28.10.2019
 
 # Ohjelmistotekniikka
 
@@ -11,11 +11,6 @@
     - Tietokantojen perusteet
 - Hyödyllinen esitieto: Tietokone työvälineenä
 - Kurssimateriaali https://github.com/mluukkai/ohjelmistotekniikka-syksy-2019
-
-. . .
-
-- Kurssi on sisällöltään ja kurssikoodiltaan sama kuin viime syksyn kurssi  _Ohjelmistotekniikka_ ja kevään 2018 kurssi _Ohjelmistotekniikan menetelmät_
-    - viime kevään OTM taas on nimeltään sama, mutta sisällöltään radikaalisti poikkeava ennen vuotta 2018 pidetystä kurssista OTM
 
 # Suoritusmuoto
 
