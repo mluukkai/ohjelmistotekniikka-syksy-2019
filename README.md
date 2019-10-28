@@ -96,7 +96,7 @@ Paja alkaa vasta tiistaina 29.10.
 
 Palautuksen deadline ti 5.11. klo 23:59
 
-- Maanantaina 28.10. klo 14-16 kurssin aloitustilaisuus salissa A111
+- Maanantaina 28.10. klo 14-16 kurssin aloitustilaisuus salissa B123
 - Komentorivi- ja Git-harjoittelu (2p)
   - Pajassa tehtävät tai omatoimiset [tehtävät](https://github.com/mluukkai/ohjelmistotekniikka-syksy-2019/blob/master/tehtavat/viikko1.md)
 - Tehtävien palautus tapahtuu tekemällä repositorio githubiin ja rekisteröitymällä labtooliin
