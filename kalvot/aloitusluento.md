@@ -47,7 +47,7 @@ alku  ma  ti  ke  to  pe
 12    x   x   x    x     
 14    x   x            x      
 
-- Paja alkaa huomenna 29.10
+- Paja alkaa keskiviikkona 30.10
 
 # Arvosteluperusteet
 
