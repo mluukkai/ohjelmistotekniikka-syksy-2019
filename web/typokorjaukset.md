@@ -1,6 +1,6 @@
 # Kirjoitusvirheitä 
 
-Jos huomaat kurssimateriaalissa kirjoitusvirheitä, kirjaudu GihHubiin, paina sivulla olevaa kynä-symbolia:
+Jos huomaat kurssimateriaalissa kirjoitusvirheitä, kirjaudu GitHubiin, paina sivulla olevaa kynä-symbolia:
 
 ![](https://raw.githubusercontent.com/mluukkai/Ohjelmistotekniikka2018/master/web/images/l-0.png)
 
