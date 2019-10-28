@@ -14,26 +14,6 @@ Kurssilla ei ole koetta. Harjoitustyö tulee tehdä kurssin aikataulujen puittei
 
 Tarkemmat arvosteluperusteet [täällä](https://github.com/mluukkai/ohjelmistotekniikka-syksy-2019/blob/master/web/arvosteluperusteet.md).
 
-
-## HUOM!  Kurssilla tarvitset java 8 versiota
-
-Tarkasta koneesi java-versio kirjoittamalla terminaaliin käsky:
-
-`mvn -v`
-
-Jos koneellasi on jokin muu versio vaihda se alla olevan ohjeen mukaisesti:
-
-Jotta kurssin [esimerkkisovelluksen](https://github.com/mluukkai/OtmTodoApp) saa toimimaan laitoksen koneilla vaihda se alla olevalla terminaalikäskyllä
-
-`export JAVA_HOME=/usr/lib/jvm/java-1.8.0-openjdk-amd64/`
-
-Komennon onnistumisen varmistamiseksi mvn -v rupeaa näyttämään oikeaa versiota. 
-Eli java 11 sijaan mvn -v sanoo java8.
-Tuon aiemmassa komennossa olevan polun löytää helposti ainakin cubblilla komennolla:
-
-`update-alternatives --list java`
-
-
 ## Kirjoitusvirheitä 
 
 Jos huomaat tehtävissä tai muussa materiaalissa kirjoitusvirheitä, kirjaudu GitHubiin ja toimi [täällä](https://github.com/mluukkai/ohjelmistotekniikka-syksy-2019/blob/master/web/typokorjaukset.md) olevan ohjeen mukaan.
@@ -44,6 +24,13 @@ Jos huomaat tehtävissä tai muussa materiaalissa kirjoitusvirheitä, kirjaudu G
   - Telegram-kanava on sillattu IRC-kanavaan #otm
   - **Huom:** kaikki epäasialliset, halventavat ja jotain ihmisryhmää syrjivät kommentit kanavalla ovat kiellettyjä ja tälläisten kommenttien esittäjät poistetaan kanavalta
 
+## Harjoitustyön toimivuus
+
+- Koneiden konfiguraatioissa on eroja, ja tällä kurssilla ei riitä että hajoitustyössä tekemäsi sovellus toimii vain omalla koneellasi
+
+- Harjoitustyösi pitää pystyä joka viikko suorittamaan, kääntämään ja testaamaan komentoriviltä käsin laitoksen Linux-koneilla (tai uusimmat päivitykset sisältävällä cubbli-linuxilla), muussa tapauksessa työtä ei tarkasteta ja menetät viikon/loppupalautuksen pisteet.
+  
+- Pääset testaamaan ohjelmaasi laitoksen koneella myös kotoa käsin käyttämällä etätyöpöytää https://helpdesk.it.helsinki.fi/ohjeet/tietokone-ja-tulostaminen/tyoasemapalvelu/etakaytettavat-tyopoydat-vdi-ja-vmware tai kirjautumalla ssh:lla palvelimelle melkki.cs.helsinki.fi
 
 ## Linkkejä
 
@@ -57,11 +44,9 @@ Jos huomaat tehtävissä tai muussa materiaalissa kirjoitusvirheitä, kirjaudu G
   - viikko 6 [harjoitustyö](https://github.com/mluukkai/ohjelmistotekniikka-syksy-2019/blob/master/tehtavat/harjoitustyo_viikko6.md)
   - viikko 7 [harjoitustyö](https://github.com/mluukkai/ohjelmistotekniikka-syksy-2019/blob/master/tehtavat/harjoitustyo_viikko7.md)
   
-**HUOM! Saadaksesi harjoitustyöstä viikkokohtaiset pisteet, sovelluksen tulee toimia laitoksen koneella ja ohjaajien pitää pystyä se niiltä aukaisemaan!!** Esim. [Virtuaalisessatyöasemassa](https://vdi.helsinki.fi) voit testata tätä.
-
 - Kurssin referenssisovellus [OtmTodoApp](https://github.com/mluukkai/OtmTodoApp)
   - Sovelluksen tarkoituksena on demonstroida erästä tapaa tehdä suurin piirtein täysiin pisteisiin riittävä dokumentaatio ja testaus projektillesi. Itse ohjelma on sen verran suppea, että saadaksesi kurssilta arvosanan 5 joudut tekemään hieman laajemman sovelluksen. 
-- [Labtool](https://study.cs.helsinki.fi/labtool/courses/TKT20002.2019.K.K.1)
+- [Labtool](https://study.cs.helsinki.fi/labtool/courses/TKT20002.2019.S.K.1)
 - Ohjeita 
   - Kaikki ohjeista eivät ole kurssin alussa vielä ajankohtaisia. Kaikkeen tärkeään tulee aikanaan linkki laskareihin tai harjoitustöiden viikkotavoitteisiin
   - [Aiheideoita ja ohjeita työn harjoitustyön aloittamiseen](https://github.com/mluukkai/ohjelmistotekniikka-syksy-2019/blob/master/web/tyon_aloitus.md)
