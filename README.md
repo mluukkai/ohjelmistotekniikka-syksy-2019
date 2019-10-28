@@ -84,11 +84,11 @@ Luokka BK107
 
 | Kellonaika | Maanantai | Tiistai | Keskiviikko | Torstai | Perjantai |
 |:-:|:-:|:-:|:-:|:-:|:-:|
-| 10 - 12 |      |       |      |          | |
-| 12 - 14 | Harri | Virva | Riku | Valtteri | |
-| 14 - 16 | Jere | Roope |      |          | Joakim | 
+| 10 - 12 |       |       |      |          |        |
+| 12 - 14 | Harri | Virva | Riku | Valtteri |        |
+| 14 - 16 | Jere  | Roope |      |          | Joakim | 
 
-**Huom: paja alkaa vasta keskiviikkona 20.10.**
+Paja alkaa vasta keskiviikkona 30.10.
 
 ## Aikataulu 
 
@@ -96,7 +96,7 @@ Luokka BK107
 
 Palautuksen deadline ti 5.11. klo 23:59
 
-- Maanantaina 28.10. klo 14-16 kurssin aloitustilaisuus salissa A111
+- Maanantaina 28.10. klo 14-16 kurssin aloitustilaisuus salissa B123
 - Komentorivi- ja Git-harjoittelu (2p)
   - Pajassa tehtävät tai omatoimiset [tehtävät](https://github.com/mluukkai/ohjelmistotekniikka-syksy-2019/blob/master/tehtavat/viikko1.md)
 - Tehtävien palautus tapahtuu tekemällä repositorio githubiin ja rekisteröitymällä labtooliin
