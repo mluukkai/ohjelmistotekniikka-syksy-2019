@@ -159,7 +159,7 @@ Katso lisää [täältä](https://github.com/mluukkai/ohjelmistotekniikka-syksy-
 
 ## JavaFX
 
-Javan versiosta 8 alkaen graafisten käyttöliittymien tekoon tarkoitettu osa kieltä eli JavaFX _ei_ ole enää ollut mukana JDK:ssa eli kielen "alennuspaketissa". JAvaFX onkin liitettävä projektiin _maven_-riippuviitena. Tämä onnistuu lisäämällä tiedoston _pom.xml_ osioon _dependencies_ seuraava
+Javan versiosta 8 alkaen graafisten käyttöliittymien tekoon tarkoitettu osa kieltä eli JavaFX _ei_ ole enää ollut mukana JDK:ssa eli kielen "asennuspaketissa". JavaFX onkin liitettävä projektiin _maven_-riippuvuutena. Tämä onnistuu lisäämällä tiedoston _pom.xml_ osioon _dependencies_ seuraava
 
 ```xml
 <dependency>
@@ -184,9 +184,9 @@ ja osioon _plugins_ seuraava
 
 Näet konfiguraation kokonaisuudessaan kurssin [esimerkkisovelluksesta](https://github.com/mluukkai/OtmTodoApp).
 
-Käyttäessäsi Javan versiota 8, mavenin lisäkonfiguraatiota ei tarvita. Ainakin laitoksen cubbli-Linuxeilla sovellus näyttää toimivan samoilla konfiguraatioilla myös käyttäessäsi Javan versiota 8.
+Käyttäessäsi Javan versiota 8, mavenin lisäkonfiguraatiota ei tarvita. Tosin ainakin laitoksen cubbli-Linuxeilla sovellus näyttää toimivan samoilla konfiguraatioilla myös käyttäessäsi Javan versiota 8.
 
-JavaFX aiheuttaa hankaluuksia myös seuraavassa luvussa esitettyyn jar-tiedostojen konfigurointiin, tapa ongelmien kiertämiseen on kerrottu [täällä](https://github.com/mluukkai/ohjelmistotekniikka-syksy-2019/blob/master/web/maven.md#javafx-ja-jar)
+JavaFX aiheuttaa hankaluuksia myös seuraavassa luvussa esitettyyn jar-tiedostojen generointiin, eräs tapa ongelmien kiertämiseen on kerrottu sitä seuraavassa luvussa [täällä](https://github.com/mluukkai/ohjelmistotekniikka-syksy-2019/blob/master/web/maven.md#javafx-ja-jar).
 
 ## Jarin generointi
 
@@ -262,7 +262,7 @@ public class TodoUi extends Application {
 
 Kaikki vaikuttaa toimivan niin kauan kunnes yritetään luoda suoritettava jar-tiedosto. Se ei toimi, sillä JavaFX-suoritusympäristö ei tule sisällytetyksi jariin.
 
-Ongelma korjautuu kun sovellukselle tehdään uusi pääohjelma:
+Ongelma korjautuu kun sovellukselle _tehdään uusi pääohjelma_:
 
 ```java
 public class Main {
@@ -272,8 +272,8 @@ public class Main {
 }
 ```
 
-Nyt pääohjelma siis _ei peri_ luokkaa _Application_, mutta kutsuu välittömästi "todellista" pääohjelmaa. 
+Nyt pääohjelma siis _ei peri_ luokkaa _Application_, mutta kutsuu välittömästi vanhaa "todellista" pääohjelmaa. 
 
-Pääohjelman muutos tulee merkata _pom.xml_-tiedostoon _shade_-pluginin _mainClass_-attribuuttiin.
+Pääohjelman muutos tulee merkata _pom.xml_-tiedostoon _shade_-pluginin [mainClass](https://github.com/mluukkai/OtmTodoApp/blob/master/pom.xml#L86)-attribuuttiin
 
 Nyt generoitu jar-tiedosto toimii!
