@@ -186,7 +186,7 @@ Näet konfiguraation kokonaisuudessaan kurssin [esimerkkisovelluksesta](https://
 
 Käyttäessäsi Javan versiota 8, mavenin lisäkonfiguraatiota ei tarvita. Ainakin laitoksen cubbli-Linuxeilla sovellus näyttää toimivan samoilla konfiguraatioilla myös käyttäessäsi Javan versiota 8.
 
-JavaFX aiheuttaa hankaluuksia myös seuraavassa luvussa esitettyyn jar-tiedostojen konfigurointiin, tapa ongelmien kiertämiseen on kerrottu [täällä]()
+JavaFX aiheuttaa hankaluuksia myös seuraavassa luvussa esitettyyn jar-tiedostojen konfigurointiin, tapa ongelmien kiertämiseen on kerrottu [täällä](https://github.com/mluukkai/ohjelmistotekniikka-syksy-2019/blob/master/web/maven.md#javafx-ja-jar)
 
 ## Jarin generointi
 
@@ -274,6 +274,6 @@ public class Main {
 
 Nyt pääohjelma siis _ei peri_ luokkaa _Application_, mutta kutsuu välittömästi "todellista" pääohjelmaa. 
 
-Pääohjelman muutos tulee_mainClass_
+Pääohjelman muutos tulee merkata _pom.xml_-tiedostoon _shade_-pluginin _mainClass_-attribuuttiin.
 
 Nyt generoitu jar-tiedosto toimii!
