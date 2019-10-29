@@ -123,7 +123,6 @@ Harjoitustyö siis aloitetaan kurssin [toisella viikolla](https://github.com/mlu
 Työ tehdään samaan repositorioon, jonka olet rekisteröinyt Labtooliin ja johon olet jo tehnyt [viikon 1 laskareiden](https://github.com/mluukkai/ohjelmistotekniikka-syksy-2019/blob/master/tehtavat/viikko1.md) palautuksen.
 
 
-
 ### GitHubissa olevan repositorion kloonaaminen
 
 Jos haluat tehdä harjoitustyötä eri koneella, kuin mille teit repositoriosi alunperin, saat koodin siirrettyä toiselle koneelle kloonaamalla repositorion.
@@ -228,6 +227,7 @@ Harjoitustyössä tehtävä ohjelmisto tehdään maven-projektina. Projektin luo
 ```
 Pokemontietokanta/target
 ```
+
 - lisää muutokset versionhallintaan, commitoi ja pushaa
 - varmista että GitHub-näkymä näyttää suunilleen seuraavalta
 <img src="https://raw.githubusercontent.com/mluukkai/ohjelmistotekniikka-syksy-2019/master/web/images/a-5.png" width="600">

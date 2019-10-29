@@ -157,6 +157,8 @@ Katso lisää [täältä](https://github.com/mluukkai/ohjelmistotekniikka-syksy-
 
 Katso lisää [täältä](https://github.com/mluukkai/ohjelmistotekniikka-syksy-2019/blob/master/web/javadoc.md)
 
+## JavaFX
+
 ## Jarin generointi
 
 Maven-muotoinen projekti voidaan helposti paketoida [jar-paketiksi](https://en.wikipedia.org/wiki/JAR_(file_format)), jolloin ohjelmaa voidaan suorittaa NetBeansin ulkopuolelta.
@@ -200,4 +202,3 @@ Huomaa, että kohdan _mainClass_ on oltava **täsmälleen sama** kuin pääohjel
 * ohjelman voi nyt suorittaa komennolla <code>java -jar jartiedoston_nimi.jar</code>
 
 Jar-tiedosto on mahdollista suorittaa millä tahansa koneella, olettaen että koneelle on asennettu Javan versio 1.8
-

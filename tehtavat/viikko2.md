@@ -14,14 +14,6 @@ Viikon palautuksista on tarjolla 2 pistettä. Pisteytys arvioidaan palautuksen l
 
 Huomaa, että tällä viikolla on myös harjoitustyöhön liittyviä [tavoitteita](https://github.com/mluukkai/ohjelmistotekniikka-syksy-2019/blob/master/tehtavat/harjoitustyo_viikko2.md)
 
-## Koodin toimivuus
-
-- Koneiden konfiguraatioissa on eroja, ja tällä kurssilla ei riitä että koodisi toimii vain omalla koneellasi
-
-- Koodi pitää pystyä joka viikko suorittamaan, kääntämään ja testaamaan komentoriviltä käsin laitoksen Linux-koneilla (tai uusimmat päivitykset sisältävällä cubbli-linuxilla), muussa tapauksessa työtä ei tarkasteta ja menetät viikon pisteet.
-  
-- Pääset testaamaan ohjelmaasi laitoksen koneella myös kotoa käsin käyttämällä etätyöpöytää https://helpdesk.it.helsinki.fi/ohjeet/tietokone-ja-tulostaminen/tyoasemapalvelu/etakaytettavat-tyopoydat-vdi-ja-vmware tai kirjautumalla ssh:lla palvelimelle melkki.cs.helsinki.fi
-
 ## 1 
 
 * tutustu [JUnit-ohjeeseen](https://github.com/mluukkai/ohjelmistotekniikka-syksy-2019/blob/master/web/junit.md)

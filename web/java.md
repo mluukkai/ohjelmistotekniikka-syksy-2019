@@ -237,6 +237,8 @@ Myös graafista käyttöliittymää käytettäessä tulee periaatteen olla se, e
 
 Mallia voi ottaa esimerkiksi kurssin referenssisovelluksen [TodoApp:in](https://github.com/mluukkai/OtmTodoApp/) koodista ja [arkkitehtuurikuvauksesta](https://github.com/mluukkai/OtmTodoApp/blob/master/dokumentaatio/arkkitehtuuri.md).
 
+Java FX aiheuttaa nykyään päänvaivaa konfiguraatioiden suhteen. Enemmän asiasta [täällä](maven.md#javafx)
+
 ### Sovelluksen alustaminen ja sulkeminen
 
 Kuten jatkokurssin materiaalissa kerrotaan, JavaFX-sovelluksen käyttöliittymästä vastaava pääluokka on peritty luokasta _Application_.
