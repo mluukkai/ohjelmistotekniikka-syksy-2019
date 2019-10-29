@@ -159,6 +159,35 @@ Katso lisää [täältä](https://github.com/mluukkai/ohjelmistotekniikka-syksy-
 
 ## JavaFX
 
+Javan versiosta 8 alkaen graafisten käyttöliittymien tekoon tarkoitettu osa kieltä eli JavaFX _ei_ ole enää ollut mukana JDK:ssa eli kielen "alennuspaketissa". JAvaFX onkin liitettävä projektiin _maven_-riippuviitena. Tämä onnistuu lisäämällä tiedoston _pom.xml_ osioon _dependencies_ seuraava
+
+```xml
+<dependency>
+    <groupId>org.openjfx</groupId>
+    <artifactId>javafx-controls</artifactId>
+    <version>12.0.2</version>
+</dependency>
+```
+
+ja osioon _plugins_ seuraava
+
+```xml
+<plugin>
+    <groupId>org.openjfx</groupId>
+    <artifactId>javafx-maven-plugin</artifactId>
+    <version>0.0.3</version>
+    <configuration>
+        <mainClass>org.openjfx.App</mainClass>
+    </configuration>
+</plugin>
+```
+
+Näet konfiguraation kokonaisuudessaan kurssin [esimerkkisovelluksesta](https://github.com/mluukkai/OtmTodoApp).
+
+Käyttäessäsi Javan versiota 8, mavenin lisäkonfiguraatiota ei tarvita. Ainakin laitoksen cubbli-Linuxeilla sovellus näyttää toimivan samoilla konfiguraatioilla myös käyttäessäsi Javan versiota 8.
+
+JavaFX aiheuttaa hankaluuksia myös seuraavassa luvussa esitettyyn jar-tiedostojen konfigurointiin, tapa ongelmien kiertämiseen on kerrottu [täällä]()
+
 ## Jarin generointi
 
 Maven-muotoinen projekti voidaan helposti paketoida [jar-paketiksi](https://en.wikipedia.org/wiki/JAR_(file_format)), jolloin ohjelmaa voidaan suorittaa NetBeansin ulkopuolelta.
@@ -166,31 +195,31 @@ Maven-muotoinen projekti voidaan helposti paketoida [jar-paketiksi](https://en.w
 Jarin generoimiseen tarvitaan seuraava konfiguraatio:
 
 ```xml
-    <build> 
-       <plugins>
-            // muut pluginit ovat tässä välissä
-           <plugin>
-                <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-shade-plugin</artifactId>
-                <version>1.6</version>
-                <executions>
-                    <execution>
-                        <phase>package</phase>
-                        <goals>
-                            <goal>shade</goal>
-                        </goals>
-                        <configuration>
-                            <transformers>
-                                <transformer implementation="org.apache.maven.plugins.shade.resource.ManifestResourceTransformer">
-                                    <mainClass>pokemontietokanta.ui.Main</mainClass>
-                                </transformer>
-                            </transformers>
-                        </configuration>
-                    </execution>
-                </executions>
-            </plugin>
-        </plugins>
-    </build>        
+<build> 
+    <plugins>
+        // muut pluginit ovat tässä välissä
+        <plugin>
+            <groupId>org.apache.maven.plugins</groupId>
+            <artifactId>maven-shade-plugin</artifactId>
+            <version>1.6</version>
+            <executions>
+                <execution>
+                    <phase>package</phase>
+                    <goals>
+                        <goal>shade</goal>
+                    </goals>
+                    <configuration>
+                        <transformers>
+                            <transformer implementation="org.apache.maven.plugins.shade.resource.ManifestResourceTransformer">
+                                <mainClass>pokemontietokanta.ui.Main</mainClass>
+                            </transformer>
+                        </transformers>
+                    </configuration>
+                </execution>
+            </executions>
+        </plugin>
+    </plugins>
+</build>        
 ``` 
 
 Huomaa, että kohdan _mainClass_ on oltava **täsmälleen sama** kuin pääohjelman sisältävän luokan täydellinen nimi:
@@ -202,3 +231,49 @@ Huomaa, että kohdan _mainClass_ on oltava **täsmälleen sama** kuin pääohjel
 * ohjelman voi nyt suorittaa komennolla <code>java -jar jartiedoston_nimi.jar</code>
 
 Jar-tiedosto on mahdollista suorittaa millä tahansa koneella, olettaen että koneelle on asennettu Javan versio 1.8
+
+## JavaFX ja jar
+
+Kuten [tämä](https://stackoverflow.com/questions/52653836/maven-shade-javafx-runtime-components-are-missing) Stackoverflow-artikkeli kertoo, Javan versiota 11 käyttäessä edellisen luvun tekniikalla generoitu jar-tiedosto _ei toimi_ jos ohjelma käyttää JavaFX:ää. Artikkeli kertoo myös kikan, minkä avulla sovellus saadaan toimimaan. Kurssin [esimerkkisovelluksesta](https://github.com/mluukkai/OtmTodoApp) noudattaakin jo kyseistä kikkaa.
+
+Normaalisti JavaFX-sovellusten pääohjelma on luokassa, joka _perii_ luokan _Application_. Kurssin esimerkkisovelluksen pääohjelma on luokassa [TodoUi](https://github.com/mluukkai/OtmTodoApp/blob/java8/src/main/java/todoapp/ui/TodoUi.java):
+
+```java
+public class TodoUi extends Application {
+    // ...
+
+    @Override
+    public void init() throws Exception {
+      // ...
+    }
+
+    
+    @Override
+    public void start(Stage primaryStage) {  
+        // ...             
+    }
+
+    public static void main(String[] args) {
+        launch(args);
+    }
+    
+}
+```
+
+Kaikki vaikuttaa toimivan niin kauan kunnes yritetään luoda suoritettava jar-tiedosto. Se ei toimi, sillä JavaFX-suoritusympäristö ei tule sisällytetyksi jariin.
+
+Ongelma korjautuu kun sovellukselle tehdään uusi pääohjelma:
+
+```java
+public class Main {
+    public static void main(String[] args) {
+        TodoUi.main(args);
+    }
+}
+```
+
+Nyt pääohjelma siis _ei peri_ luokkaa _Application_, mutta kutsuu välittömästi "todellista" pääohjelmaa. 
+
+Pääohjelman muutos tulee_mainClass_
+
+Nyt generoitu jar-tiedosto toimii!
