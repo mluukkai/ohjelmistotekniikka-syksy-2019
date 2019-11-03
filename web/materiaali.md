@@ -281,7 +281,7 @@ Luokkien tarkemmat detaljit selviävät koodia katsomalla tai JavaDoc:ista.
 
 UML-kaavioissa olevat "viivat" kuvaavat luokkien olioiden välistä _pysyvää yhteyttä_. Joissain tilanteissa on mielekästä merkata kaavioihin myös ei-pysyvää suhdetta kuvaava katkoviiva, eli _riippuvuus_.
 
-Eräs tälläinen tilanne on Ohjelmoinnin perusteiden Unicafe-tehtävän luokkien _Maksukortti_ ja _Kassapääte_ suhde. Maksukortin koodi  on seuraava: 
+Eräs tällainen tilanne on Ohjelmoinnin perusteiden Unicafe-tehtävän luokkien _Maksukortti_ ja _Kassapääte_ suhde. Maksukortin koodi  on seuraava: 
 
 ```java 
 public class Maksukortti {
@@ -291,7 +291,7 @@ public class Maksukortti {
         this.saldo = saldo;
     }
  
-    public double saldo() {iip
+    public double saldo() {
         return this.saldo;
     }
  
@@ -452,7 +452,7 @@ Sovelluksen koodi on organisoitu _kerrosarkkitehtuurin_ periaatteiden mukaan. As
 
 ### Sekvenssikaaviot
 
-Luokka- ja pakkauskaaviot kuvaavat ohjelman rakennetta. Ohjelman toimita ei kuitenkaan tule niistä ilmi millään tavalla. 
+Luokka- ja pakkauskaaviot kuvaavat ohjelman rakennetta. Ohjelman toiminta ei kuitenkaan tule niistä ilmi millään tavalla. 
 
 Esim. ohjelmoinnin perusteiden Unicafe-tehtävää kuvaava luokkakaavio näyttää seuraavalta:
 
