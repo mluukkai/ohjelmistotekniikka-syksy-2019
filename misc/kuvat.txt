@@ -17,7 +17,7 @@ main->*arto: new Henkilo("Hellas", 1500, "1234-12345")
 main->rekisteri: lisaa(arto)
 main->*sasu: new Henkilo("Tarkoma", 6500, "4455-123123")
 main->rekisteri: lisaa(sasu)
-main->+rekisteri: asetaPalkka("Hellas", 2100)  
+main->+rekisteri: asetaPalkka("Hellas", 3500)  
 rekisteri->arto: setPalkka(3500)
 rekisteri-->-main:
 main->+rekisteri: suoritaPalkanmaksu()
