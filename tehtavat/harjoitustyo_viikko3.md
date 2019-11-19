@@ -6,7 +6,7 @@ Muista pushata  harjoitustyöhön liittyvät asiat GitHubiin ennen viikkodeadlin
 
 - Klo 00 jälkeen tulevia repositorion päivityksiä ei huomioida pisteytyksessä, eli ne tuovat 0 pistettä.
 
-**HUOM! Saadaksesi harjoitustyöstä viikkokohtaiset pisteet, sovelluksen tulee toimia laitoksen koneella ja ohjaajien pitää pystyä se niiltä aukaisemaan!!** Esim. [Virtuaalisessatyöasemassa](https://vdi.helsinki.fi) voit testata tätä.
+**HUOM! Saadaksesi harjoitustyöstä viikkokohtaiset pisteet, sovelluksen tulee toimia laitoksen koneella ja ohjaajien pitää pystyä se niiltä aukaisemaan!!** Voit testata tätä esim. [virtuaalityöasemassa](https://vdi.helsinki.fi).
 
 Palautuksesta on tarjolla 2 kurssipistettä.
 
@@ -14,7 +14,7 @@ Arvostelussa kiinnitetään huomiota seuraaviin seikkoihin
 - Repostitorion juuresta löytyy Maven-projekti
   - [ohje](https://github.com/mluukkai/ohjelmistotekniikka-syksy-2019/blob/master/web/tyon_aloitus.md#harjoitusty%C3%B6n-aloitus) projektin luomiseen ja sen  sijoittamiseen palautusrepositorioon
 - Projektin koodin pystyy suorittamaan NetBeansin vihreällä napilla _tai/ja_ komennolla <code>mvn compile exec:java -Dexec.mainClass=pakkaus.Paaohjelma</code>
-  - komennon parametrina on metodin _main_ sisältävän luokan täydellinen, eli myös pakkauksen sisältämä nimi
+  - komennon parametrina on metodin _main_ sisältävän luokan täydellinen, eli myös pakkauksen sisältävä, nimi
   - [referenssisovelluksen](https://github.com/mluukkai/OtmTodoApp) tapauksessa parametri olisi <code>-Dexec.mainClass=todoapp.ui.TodoUi</code>
 - Edellytys pisteille suoritettavissa oleva versio, joka toteuttaa ainakin osan jostain viikolla 2 tekemäsi määrittelydokumentin toiminnallisuudesta
   - pelkät getterietä ja settereitä sisältävät, täysin ilman toiminnallisuutta olevat luokat eivät tuo pisteitä
