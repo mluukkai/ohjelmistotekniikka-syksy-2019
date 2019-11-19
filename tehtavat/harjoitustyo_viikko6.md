@@ -16,7 +16,8 @@ Arvostelussa kiinnitetään huomiota seuraaviin seikkoihin
 
 - Ohjelma on kasvanut edellisestä viikosta (0.75p)
   - Ohjelmasta pystyy tekemään suorituskelpoisen [jar](https://github.com/mluukkai/ohjelmistotekniikka-syksy-2019/blob/master/web/maven.md#jarin-generointi)-tiedoston komennolla _mvn package_
-   - Ohjelman suoritettavissa oleva versio on kasvanut edellisestä viikosta _ja_ toteuttaa edellisen viikon versiota suuremman osan määrittelydokumentin toiminnallisuudesta eli jotain käyttäjälle näkyvää hyödyllistä toiminnallisuutta
+   - Ohjelman suoritettavissa oleva versio on kasvanut edellisestä viikosta _ja_ toteuttaa edellisen viikon versiota suuremman osan määrittelydokumentin toiminnallisuudesta eli jotain käyttäjälle näkyvää hyödyllistä toiminnallisuutta.
+   Merkitse lisäksi tarkastusta varten määrittelydokumenttiin tällä viikolla tekemäsi toiminnallisuudet "tehty" merkinnällä.
   - Ohjelman suoritettavissa olevasta versiosta on tehty uusi [GitHub-release](https://github.com/mluukkai/ohjelmistotekniikka-syksy-2019/blob/master/web/release.md), joka sisältää suoritettavan version jar-tiedoston ja muut mahdolliset ohjelman suorituksessa tarvittavat tiedostot
 - Koodin laatu (0.5p)
   - Ohjelma ei sisällä suurta määrää toisteista koodia eli copy pastea
