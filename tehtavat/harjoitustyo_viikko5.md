@@ -3,7 +3,7 @@
 Palautuksen deadline tiistai 3.12. klo 23:59
 
 **HUOM** jotta voisit osallistua viikolla 6 pidettävään koodikatselmointiin (josta tarjolla 2 kurssipistettä)
-- viikon 5 deadlinen jälkeen tulee palautusrepositoriosta löytyä osan määrittelydokumentin toiminnallisuutta(käyttäjälle näkyvää hyödyllistä toiminnallisuutta) toteuttava toimiva versio harjoitustyöstä 
+- viikon 5 deadlinen jälkeen tulee palautusrepositoriosta löytyä osan määrittelydokumentin käyttäjälle näkyvää toiminnallisuutta toteuttava toimiva versio harjoitustyöstä 
 - viikon 5 palautuksesta tulee saada enemmän kuin 0 pistettä
 - palautusrepositorioistasi on GitHub-issuet saalittuna, ks. [ohje](https://github.com/mluukkai/ohjelmistotekniikka-syksy-2019/blob/master/tehtavat/harjoitustyo_viikko5.md#issueiden-salliminen) 
 
