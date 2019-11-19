@@ -3,7 +3,7 @@
 Palautuksen deadline tiistai 3.12. klo 23:59
 
 **HUOM** jotta voisit osallistua viikolla 6 pidettävään koodikatselmointiin (josta tarjolla 2 kurssipistettä)
-- viikon 5 deadlinen jälkeen tulee palautusrepositoriosta löytyä osan määrittelydokumentin toiminnallisuutta toteuttava toimiva versio harjoitustyöstä 
+- viikon 5 deadlinen jälkeen tulee palautusrepositoriosta löytyä osan määrittelydokumentin toiminnallisuutta(käyttäjälle näkyvää hyödyllistä toiminnallisuutta) toteuttava toimiva versio harjoitustyöstä 
 - viikon 5 palautuksesta tulee saada enemmän kuin 0 pistettä
 - palautusrepositorioistasi on GitHub-issuet saalittuna, ks. [ohje](https://github.com/mluukkai/ohjelmistotekniikka-syksy-2019/blob/master/tehtavat/harjoitustyo_viikko5.md#issueiden-salliminen) 
 
@@ -22,7 +22,8 @@ Arvostelussa kiinnitetään huomiota seuraaviin seikkoihin
   - [Ohje](https://github.com/mluukkai/ohjelmistotekniikka-syksy-2019/blob/master/web/release.md) releasen tekemiseen
   - Releaseen on linkki projektin README:stä
 - Ohjelma on kasvanut edellisestä viikosta (0.75p)
-  - Ohjelman suoritettavissa oleva versio on kasvanut edellisestä viikosta _ja_ toteuttaa edellisen viikon versiota suuremman osan määrittelydokumentin toiminnallisuudesta
+  - Ohjelman suoritettavissa oleva versio on kasvanut edellisestä viikosta _ja_ toteuttaa edellisen viikon versiota suuremman osan määrittelydokumentin toiminnallisuudesta eli jotain käyttäjälle näkyvää hyödyllistä toiminnallisuutta.
+  Merkitse lisäksi tarkastusta varten määrittelydokumenttiin tällä viikolla tekemäsi toiminnallisuudet "tehty" merkinnällä.
 - Testaus on edennyt (0.5p)
   - Sovellukselle tulee pystyä generoimaan testikattavuusraportti komennolla <code>mvn test jacoco:report</code>
   - Käyttöliittymän rakentava koodi [jätetään pois](https://github.com/mluukkai/ohjelmistotekniikka-syksy-2019/blob/master/web/maven.md#koodin-huomiotta-jättäminen-kattavuusraportissa) testikattavuusraportista
