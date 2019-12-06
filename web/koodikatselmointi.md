@@ -1,9 +1,10 @@
 # Koodikatselmointi
 
-
 Katselmoinnista voi saada maksimissaan 2 pistettä.
 
 Kurssilla tapahtuvan katselmoinnin perimmäinen tarkoitus on oppia hahmottamaan toisen henkilön kirjoittamaa koodia ja kokonaista ohjelmointiprojektia. Sujuva koodinlukutaito on välttämätön taito ohjelmoijan työssä. Toisten koodia luetaan kuitenkin laitoksen kursseilla toistaiseksi valitettavan vähän. Hyvin suoritettu katselmointi on tehokas tapa havaita koodista ongelmakohtia ja virheitä sekä parantaa koodin laatua.
+
+*Katselmointiin käytettyä aikaa ei merkata työaikakirjanpitoon*
 
 ## Ohjeet
 
@@ -17,7 +18,6 @@ Tehtävänäsi on lukea läpi toisen opiskelijan harjoitustyö ja antaa siitä r
   * Voit halutessasi kloonata repositorion koneellesi
 
 <img src="https://raw.githubusercontent.com/mluukkai/ohjelmistotekniikka-syksy-2019/master/web/images/review1.png" width="700">
-
 
 * Aloita lukemalla projektin vaatimusmäärittely
 * Tutustu mahdollisimman kattavasti ohjelmakoodiin sekä testeihin
