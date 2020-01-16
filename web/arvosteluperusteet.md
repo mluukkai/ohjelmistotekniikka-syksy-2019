@@ -40,11 +40,12 @@ Pisteet (yht 24) jakautuvat seuraavasti
   - ks https://github.com/mluukkai/ohjelmistotekniikka-syksy-2019/blob/master/web/maven.md#ulkoisten-kirjastojen-k%C3%A4ytt%C3%A4minen-mavenin-avulla
 - Suorituskelpoinen jar-tiedosto 1p
   - Tiedosto generoitavissa tai löytyy repositoriosta _loppupalautus_-nimisestä releasesta
-- Koodin laatu 6+1p
+- Koodin laatu 4+1p
   - Kooste [laatuvaatimuksista](https://github.com/mluukkai/ohjelmistotekniikka-syksy-2019/blob/master/web/koodin_laatuvaatimukset.md)
   - 4p hyvät abstraktiot (esim. Design patternien kuten DAO hyödynnys), hyvä luokkarakenne, helposti testattava ja laajennettava, ei ilmeistä copypastea
-  - 2p virheiden käsittely
   - +1p checkstylesäännöt kunnossa (muutama checkstyletyylin rikkomus saatetaan katsoa läpi sormien, jos tyylirikon poisto esim. huonontaisi muuten koodin laatua)
+ - virheiden käsittely 2p
+    - 2p Sovellus toimii konsistentisti, ei kaadu virheellisillä syötteillä, ei heitä poikkeuksia ja antaa järkevät virheilmoitukset
   - **Älä jätä sovellukseesi poiskommentoitua koodia**, tai koodia jota sovellus ei käytä (esim. refaktoroinnin myötä turhaksi muuttuneet metodit/luokat)
     - jos jätät, vähenevät koodin laadun pisteet -1 tai -2p riippuen kommentoidun/turhan koodin määrästä
 
